@@ -5,3 +5,4 @@ F:\版本控制文件夹\ImageResize\IRSZ\IRSZ\obj\x86\Debug\IRSZ.Properties.Res
 F:\版本控制文件夹\ImageResize\IRSZ\IRSZ\obj\x86\Debug\IRSZ.csproj.GenerateResource.Cache
 F:\版本控制文件夹\ImageResize\IRSZ\IRSZ\obj\x86\Debug\IRSZ.exe
 F:\版本控制文件夹\ImageResize\IRSZ\IRSZ\obj\x86\Debug\IRSZ.pdb
+F:\版本控制文件夹\ImageResize\IRSZ\IRSZ\obj\x86\Debug\IRSZ.csprojResolveAssemblyReference.cache

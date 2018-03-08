@@ -290,7 +290,8 @@ namespace IRSZ
                 }
                 //保存到文件，同时进一步控制质量
                 SaveImage2File(destPath, destImage, quality, mimeType);
-                
+                pictureBox1.Image = Image.FromFile(destPath);
+                lbl_len.Text = "文件大小：" + GetFileSize(new FileInfo(destPath).Length);
                 retVal = true;
             }
             catch (Exception ex)
@@ -434,7 +435,7 @@ namespace IRSZ
                 {
                     pictureBox1.Image = Image.FromStream(image);
                 }
-                lbl_len.Text = GetFileSize(new FileInfo("./test1.jpg").Length);
+                lbl_len.Text = "文件大小："+GetFileSize(new FileInfo("./test1.jpg").Length);
             }
             catch (Exception ex)
             {
